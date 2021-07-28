@@ -1,0 +1,8 @@
+{ "region": "us-east-2",
+    "source_ami": "ami-0443305dabd4be2bc",
+    "instance_type": "t2.micro",
+    "ssh_username": "ec2-user",
+    "ssh_keypair_name": "project1",
+    "ssh_private_key_file": "/home/ec2-user/.ssh/id_rsa",
+    "ami_name": "R1Soft-AMI"
+   }
