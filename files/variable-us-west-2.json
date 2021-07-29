@@ -1,5 +1,5 @@
 { "region": "us-west-2",
-    "source_ami": "ami-0172fd3e875bfc8f8",
+    "source_ami": "ami-0bc06212a56393ee1",
     "instance_type": "t2.micro",
     "ssh_username": "centos",
     "ssh_keypair_name": "project1",
