@@ -17,4 +17,7 @@ sudo sed 's/SELINUX=permissive/SELINUX=enforcing/g' /etc/sysconfig/selinux -i
 sudo setenforce 0 
 sudo chown -R apache:apache /var/www/html/ 
 sudo systemctl restart httpd 
+sudo curl -O https://inspector-agent.amazonaws.com/linux/latest/install
+sudo bash install
+sudo systemctl status awsagent
  
